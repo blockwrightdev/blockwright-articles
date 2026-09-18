@@ -1,0 +1,25 @@
+name: Tell the site there are new articles
+
+# Publishing is a push to this repository. The site is a static export, so a
+# page per article only exists if it was built — this tells the site to rebuild
+# and deploy itself. Nobody has to do anything else.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ru/**'
+      - 'en/**'
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch to blockwright-academy
+        env:
+          GH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+        run: |
+          gh api -X POST repos/blockwrightdev/blockwright-academy/dispatches \
+            -f event_type=articles-updated \
+            -F "client_payload[sha]=$GITHUB_SHA"
+          echo "::notice::Asked the site to rebuild for $GITHUB_SHA"
