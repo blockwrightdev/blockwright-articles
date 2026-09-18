@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "lang": "en",
+  "articles": [
+    {
+      "slug": "web3-apps-feel-like-web2",
+      "title": "Why Most Web3 Apps Still Feel Like Web2 — And How to Actually Fix It",
+      "date": "2026-09-15",
+      "description": "There’s a moment every new Web3 user experiences. They’ve heard the pitch — self-sovereignty, permissionless access, no middlemen. They download a wallet, get some ETH,…"
+    },
+    {
+      "slug": "seed-phrase-key-generation",
+      "title": "How Private Key Generation Works Through a Seed Phrase",
+      "date": "2026-09-08",
+      "description": "In the world of cryptocurrencies and blockchain, private keys play a crucial role in securing your assets. But how are they properly generated? One of the most common…"
+    },
+    {
+      "slug": "ipfs-smart-contracts",
+      "title": "IPFS + Smart Contracts: The Ultimate Guide to Storing and Managing Data on Blockchain",
+      "date": "2026-09-01",
+      "description": "💡 Why Can’t Blockchains Store Large Files?"
+    }
+  ]
+}
