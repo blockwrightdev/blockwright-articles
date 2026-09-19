@@ -160,7 +160,6 @@ fetchIPFSHash();
 
 🔗 **Did you find this guide useful? Share your thoughts in the comments!**
 
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=349a55850777)
 
 ---
 

@@ -121,4 +121,3 @@ Generating a private key through a **seed phrase** is a **secure and standardize
 
 🔒 **Always store your seed phrase in a secure location and never share it with anyone.** Your seed phrase is the **key to your assets**, and losing it could mean losing access to your funds.
 
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=c3e4e08ccda2)

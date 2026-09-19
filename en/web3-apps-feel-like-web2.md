@@ -112,4 +112,3 @@ The question is whether we care enough about the user to actually do the work.
 
 _Have thoughts on Web3 UX patterns that are working — or still broken? Drop a comment below._
 
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=fb273c1c59f0)
